@@ -1877,7 +1877,7 @@ const scholarships = [
   }
 ];
 // --- 1. KHAI BÁO BIẾN (Phải để ở đầu đoạn này) ---
-let currentLang = localStorage.getItem('prefLang') || 'vi';
+let currentLang = localStorage.getItem('prefLang') || detectedLang || 'vi';
 let currentPage = 1;
 const itemsPerPage = 15;
 let currentFilteredData = [...scholarships]; // Lấy sẵn dữ liệu ban đầu
