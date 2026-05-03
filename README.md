@@ -17,4 +17,5 @@ This project is a high-performance, web-based tool designed to help internationa
 
 ## 👤 Author
 **Nguyen Truong Duy (阮長維)**
-* Aspiring Computer Science student focus on Data Systems.
+* Self-taught Programmer transitioning into Computer Science & Information Engineering.
+* Focused on Data Systems and Hardware Performance Optimization.
