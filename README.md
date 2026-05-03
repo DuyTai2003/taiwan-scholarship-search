@@ -5,6 +5,12 @@
 ## 📝 Project Overview
 This project is a high-performance, web-based tool designed to help international students easily search and filter scholarship information from various Taiwanese universities.
 
+## 📸 Preview / 預覽
+
+| Vietnamese Version | Chinese Version |
+|:---:|:---:|
+| ![Tiếng Việt](./screenshots/screenshot-vi.png) | ![Chinese](./screenshots/screenshot-zh.png) |
+
 ## ✨ Key Features
 * **Multilingual Support (i18n):** Seamlessly switch between English, Chinese (Traditional), and Vietnamese.
 * **Smart Filtering:** Filter scholarships by academic level (Associate, Bachelor, Master, PhD).
