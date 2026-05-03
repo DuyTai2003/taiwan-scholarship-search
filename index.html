@@ -311,6 +311,24 @@ const i18n = {
 };
 
 
+const browserLang = navigator.language || navigator.userLanguage;
+let detectedLang = 'zh-TW'; 
+
+if (browserLang.includes('vi')) {
+    detectedLang = 'vi';
+} else if (browserLang.includes('en')) {
+    detectedLang = 'en';
+} else if (browserLang.includes('zh-CN')) {
+    detectedLang = 'zh-CN';
+} else {
+    detectedLang = 'zh-TW';
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+    setLang(detectedLang); 
+    document.getElementById('langSelect').value = detectedLang;
+});
+
 
 const scholarships = [
   {
